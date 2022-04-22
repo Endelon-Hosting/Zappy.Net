@@ -6,4 +6,12 @@
     <RootNamespace>Zappy.Net_Test</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Logging.Net.Spectre" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zappy.Net\Zappy.Net.csproj" />
+  </ItemGroup>
+
 </Project>
